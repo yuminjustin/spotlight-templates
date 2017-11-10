@@ -1,0 +1,2 @@
+# spotlight-templates
+提供给spotlight脚手架使用的template
