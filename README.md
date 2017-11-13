@@ -1,4 +1,3 @@
-
 ## spotlight-templates-backbone
 spotlight脚手架模板<br>
 
@@ -9,6 +8,8 @@ spotlight脚手架模板<br>
      cd my-project
 
      npm install
+
+     npm run dev
 
 此模板是webpack下的 backbone+router环境<br><br>
 
