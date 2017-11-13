@@ -13,7 +13,7 @@ module.exports = {
     },
     "author": {
       "type": "string",
-      "message": "Author"
+      "message": "作者"
     }
   },
   "completeMessage": "开始你的项目:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n"
