@@ -1,5 +1,5 @@
 /*
- 基础类 （可根据项目自行扩展）
+ 基础类 （此配置参考他人，更多配置请参考backbone官方文档）
  * */
 var arraySlice = Array.prototype.slice;
 var Tool = {
@@ -49,7 +49,6 @@ var Tool = {
 
         //扩展添加pars参数
         /*
-         *   ST.AJAXDATA 公共参数 全站ajax请求都会带上的参数
          *   model.pars 静态参数  通常固定写入或者实例化时设置一次
          *   model.get("pars") 动态参数  通常由router 通过changePars传入，如page:1，查询参数等.
          *   优先级：实际参数 > 动态参数 > 静态参数 > 公共参数
