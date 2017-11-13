@@ -3,18 +3,18 @@ module.exports = {
     "name": {
       "type": "string",
       "required": true,
-      "message": "Project name"
+      "message": "项目名称"
     },
     "description": {
       "type": "string",
       "required": false,
-      "message": "Project description",
+      "message": "项目描述",
       "default": "A babckbone project"
     },
     "author": {
       "type": "string",
       "message": "Author"
-    },
-    "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n"
-  }
+    }
+  },
+  "completeMessage": "开始你的项目:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n"
 };
