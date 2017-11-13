@@ -1,3 +1,4 @@
+// 导航条
 var Nav = require('C/nav')
 
 var Router = B.Router.extend({
@@ -6,6 +7,7 @@ var Router = B.Router.extend({
         ':model(/:action)(/*condition)': 'loadmodel'
     },
     error: function () {
+        // 404 页面
         this.loadmodel('error', 'index');
         return false;
     },
@@ -18,6 +20,7 @@ var Router = B.Router.extend({
         location.hash = "#/"
     },
     loadmodel: function (module, action, condition) {
+        // router加载
         if (!action) action = "index";
 
         var _this = this,
@@ -43,7 +46,7 @@ var Router = B.Router.extend({
             options.params = condition || {};
         }
 
-        /* webpack按需加载 require 不支持变量 */
+        /* webpack按需加载  */
 
         if (str == 'index/index') {
             require.ensure([], function (require) {
