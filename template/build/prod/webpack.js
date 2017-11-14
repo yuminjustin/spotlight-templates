@@ -26,12 +26,6 @@ var webpackConfig = {
         new webpack.DefinePlugin({
             'process.env': config.build.env
         }),
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false
-            },
-            sourceMap: true
-        }),
         new ExtractTextPlugin({
             filename: utils.assetsPath('css/[name].[contenthash].css')
         }),
