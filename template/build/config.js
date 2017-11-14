@@ -8,7 +8,8 @@ module.exports = {
     env: '"production"',
     static: path.resolve(__dirname, '../static'), //资源目录
     newStatic: 'static',
-    outputPath: '../../dist', // 输出目录
+    outputPath: '../../temp', // 输出目录 临时
+    gulpPath: 'dist', // gulp 最后输出目录
     htmlOption: { // 对应 entry
       app: {
         title: 'backbone webpack',
@@ -22,7 +23,7 @@ module.exports = {
     env: '"development"',
     contentBase: path.resolve(__dirname, "/"), // 需要被访问的根目录
     publicPath: "/",
-    outputPath: path.resolve(__dirname, '../../dist'),
+    outputPath: path.resolve(__dirname, '../../temp'), // 临时
     port: '8080',
     html5Router: false, // html5 router 
     htmlOption: { // 对应 entry
