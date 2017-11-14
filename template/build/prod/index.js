@@ -4,9 +4,11 @@ var merge = require('webpack-merge')
 var ora = require('ora')
 var rm = require('rimraf')
 var chalk = require('chalk')
+var shell = require("shelljs");
 var webpackBase = require("../webpack.config.base")
 var webpackProd = require("./webpack")
 var config = require("../config")
+
 
 var spinner = ora('正在打包,请稍后...')
 
@@ -32,7 +34,7 @@ rm(path.resolve(__dirname, config.build.outputPath, config.build.newStatic), err
             console.log(chalk.red('打包失败.\n'))
             process.exit(1)
         }
-        console.log(chalk.cyan('打包成功.\n'))
+        shell.exec("gulp"); // 执行gulp
     })
 
 })
