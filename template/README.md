@@ -26,8 +26,9 @@ This template is base on webpack, support for backbone+router development <br>
 4.引入gulp对webpack打包后的js做关键字替换让它能支持更低版本IE，经过测试已支持IE7。<br>
 （gulp会在执行build之后自动执行，无需手动操作，为保证兼容性请尽量使用es5做开发，为应对奇葩需求不得不填各种坑来适应这个怀旧框架）<br>
   Use gulp to replace javascript keywords in the files packs by webpack, so we can run it on IE7!<br>
-（gulp will execute automatically after executing build, no manual operation required, To ensure compatibility please try to use es5 to develop, resolve the freak needs have to find a lots of solutions for this nostalgic framework ——"Backbone"）
-
+（gulp will execute automatically after executing build, no manual operation required, To ensure compatibility please try to use es5 to develop, resolve the freak needs have to find a lots of solutions for this nostalgic framework ——"Backbone"）<br>
+5.webpack的热替换好像并不能生效，只会刷新页面。<br>
+Webpack hot reload can't work well，just refresh when you edit your files。<br>
 <br>
 
 # :(
