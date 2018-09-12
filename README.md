@@ -32,6 +32,9 @@ Webpack hot reload can't work well，just refresh when you edit your files。<br
 <br>
 6.Upgrade to webpack4<br>
 <br>
+7.cnpm install 将不支持IE<br>
+<br>
+
 
 # :(
 
