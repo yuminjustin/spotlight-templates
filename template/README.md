@@ -30,8 +30,7 @@ This template is base on webpack, support for backbone+router development <br>
 5.webpack的热替换好像并不能生效，只会刷新页面。<br>
 Webpack hot reload can't work well，just refresh when you edit your files。<br>
 <br>
-6.gulp需要全局安装。<br>
-gulp  install globally.<br>
+6.webpack3 only。<br>
 <br>
 
 # :(
