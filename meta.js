@@ -16,5 +16,5 @@ module.exports = {
       "message": "作者/ author"
     }
   },
-  "completeMessage": "开始你的项目:\n cnpm 安装将不兼容低版本IE\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n"
+  "completeMessage": "开始你的项目:\n\n注：cnpm 安装将不兼容低版本IE\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\n"
 };
