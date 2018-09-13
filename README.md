@@ -4,7 +4,7 @@ spotlight scaffold template for backbone<br>
 
 ## Use：
 
-     spotlight init backbone my-project
+     spotlight backbone my-project
 
      cd my-project
 
