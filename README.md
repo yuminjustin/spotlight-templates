@@ -34,6 +34,8 @@ Webpack hot reload can't work well，just refresh when you edit your files。<br
 <br>
 7.cnpm install 将不支持IE<br>
 <br>
+8.Upgrade gulp 4.0<br>
+<br>
 
 
 # :(
